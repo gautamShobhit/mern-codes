@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(150, 145, 138);
+
+  /* background-position: center; */
+}
+.header {
+  border: 5px dashed white;
+  /* border-bottom: 20px solid white; */
+  border-radius: 40px;
+  height: 300px;
+  /* width: 300px; */
+  background-image: url(./src/assets/background.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(115, 255, 0);
+  /* inline-block gives us a combination: inline behaviour + box dimensions */
+  /* since we can assign dimensions in block and inline elements stay in a single line */
+  display: inline-block;
+  margin: 10px;
+}
+#newBox {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(53, 59, 144);
+
+  /* display: inline-block; */
+  margin: 10px;
+}
+span {
+  font-size: 40px;
+  border: 2px solid red;
+  margin: 0px 20px;
+  padding: 10px;
+}
+.spanDiv {
+  margin-top: 40px;
+}

@@ -1,0 +1,17 @@
+.firstDiv {
+  background-color: steelblue;
+  height: 50vh;
+  width: 50vw;
+  margin-bottom: 20px;
+}
+
+.parent {
+  height: 400px;
+  width: 800px;
+  background-color: rgb(14, 213, 14);
+}
+.child {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(14, 80, 213);
+}

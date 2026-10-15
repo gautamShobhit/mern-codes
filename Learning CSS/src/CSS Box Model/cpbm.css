@@ -1,0 +1,36 @@
+div {
+  border: 2px solid black;
+}
+.inner {
+  /* width: 50%; */
+  box-sizing: border-box;
+  background-color: blue;
+  margin: 40px;
+  border: 2px solid blue;
+  text-align: center;
+  /* padding: 20px; */
+}
+.outer {
+  margin: 20px;
+  background-color: yellow;
+}
+h1 {
+  background-color: white;
+  border: 2px solid green;
+  padding: 40px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  margin: 10px 20px;
+}
+.first {
+  color: white;
+  height: 200px;
+  width: 50%;
+  /* box-sizing: border-box; */
+  box-sizing: content-box;
+  border: 10px solid black;
+  padding: 20px;
+}
+h2 {
+  background-color: red;
+}

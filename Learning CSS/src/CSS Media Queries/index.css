@@ -1,0 +1,44 @@
+.parent {
+  display: flex;
+  height: 500px;
+  border: 2px solid black;
+  background-color: rgb(104, 96, 96);
+}
+
+.child {
+  /* This is by default : Flex direction is set to row */
+  /* flex-direction: row; */
+  background-color: lightblue;
+  width: 49%;
+  border: 2px solid black;
+  height: 94%;
+  margin: 10px;
+  padding: 4px;
+}
+.grandChild {
+  border: 2px solid black;
+  height: 47%;
+  margin: 8px;
+}
+#grandChild1 {
+  background-color: lightgreen;
+}
+#grandChild2 {
+  background-color: lightcoral;
+}
+/* Below query changes the UI according to max screen width */
+/* That is, for screen width 0 to 600px, below properties will be applicable */
+@media (max-width: 600px) {
+  .parent {
+    flex-direction: column;
+    width: 60vw;
+  }
+  .child {
+    width: 90%;
+  }
+  .grandChild {
+    height: 43%;
+    width: 90%;
+    margin: 8px;
+  }
+}

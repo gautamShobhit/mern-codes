@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style tag is used to style elements, this specific styling technique is called Inline styling -->
+    <style>
+      #first_div {
+        border: 2px dashed black;
+        border-radius: 10px;
+        padding: 0px 8px;
+      }
+      #snap {
+        border: 2px solid orange;
+      }
+      #pTag {
+        text-align: center;
+        color: brown;
+      }
+      #demoImage {
+        border-radius: 10px;
+      }
+    </style>
+    <!-- Title is used to Display a text on top of the browser window -->
+    <title>First HTML DOC</title>
+  </head>
+  <body>
+    <!--HTML Headings-->
+    <h1>Hello !!</h1>
+    <h2>Today we are learning HTML tag</h2>
+    <h3>We know what rendering is</h3>
+    <!--Line break : Breaks the line and starts from a newer a line -->
+    <h4>We know how <br />request response works</h4>
+    <h5>Now we are moving on to heading tags</h5>
+    <h6>This is going to be fun</h6>
+    <!-- Horizontal line : Used to break a line, put a horizontal line dividing pur webpage into sections -->
+    <hr />
+
+    <!--Text Formatting : Bold, Strong, Italics and Emphasize -->
+    <p>MERN <b>lectures</b></p>
+    <!-- <strong> & <em> tags are used to add special meaning to text useful for text readers -->
+    <p>MERN <strong>lectures</strong></p>
+    <p>MERN <em>lectures</em></p>
+    <p>MERN <i>lectures</i></p>
+    <b>This is bold line</b>
+    <br />
+    <i>This is italics line</i>
+    <hr />
+
+    <!--Using div-->
+    <!-- Block level elements : Takes up 100% width of their parent container -->
+    <!-- Inline level elements : Only  occupies width of their parent element -->
+    <!-- A div is a type of a container used to seperate code according to it's functioning -->
+    <!-- div is a block level element -->
+    <div id="first_div">
+      <p>This is a paragraph inside a div</p>
+      <!--Using Span-->
+      <!-- Span wraps around the element it is created for -->
+      <!-- It is an inline level element -->
+      <p>This is a <span id="snap">SPAN</span></p>
+    </div>
+    <hr />
+    <p id="pTag">we are outside div</p>
+
+    <!--Understanding Anchor Tag-->
+    <!-- Used to create hyperlinks which redirects user to a different source or a webpage -->
+    <!-- href : Hypertext Refrence -->
+    <!-- target="_blank" : Makes sure that anchor tag opens a new tab to redirect user -->
+    <!--Absolute Path : Which remains the same eg; url -->
+    <a href="https://www.invertisuniversity.ac.in/" target="_blank"
+      >Click Here</a
+    >
+    <br />
+    <!--Relative Path : Changes according the file structure -->
+    <a href="./src/about.html">Go to About Page</a>
+    <hr />
+
+    <!--Image Tag-->
+    <!-- alt : gives the browser and users an idea of the image using text description if in case image fails to load -->
+    <img
+      id="demoImage"
+      src="./src/assets/image.jpg"
+      alt="demo image"
+      height="300px"
+    />
+    <hr />
+
+    <!--HTML Lists-->
+    <h2 style="text-align: center">HTML LISTS</h2>
+    <!--Description List-->
+    <!-- Used to decribe various terms in a single list -->
+    <dl>
+      <!-- dt : Description term -->
+      <dt>Tea</dt>
+      <!-- dd : Description definition -->
+      <dd>
+        Tea originated in southwest China and the borderlands of northern
+        Myanmar roughly 5,000 years ago.
+      </dd>
+    </dl>
+
+    <!--Unordered List-->
+    <!-- When no order has to be maintained -->
+    <h3>My Grocery Items :</h3>
+    <ul type="circle">
+      <li>Ginger</li>
+      <li>Milk</li>
+      <li>Tea Leaves</li>
+      <li>Sugar</li>
+    </ul>
+
+    <!--Ordered List-->
+    <!-- When a particular order has to be maintained -->
+    <h3>Recipe for making Tea</h3>
+    <ol type="a">
+      <li>Take Milk and Mix 1/3rd water</li>
+      <!-- Nested lists : We can create multiple lists within another list -->
+      <ul>
+        <li>Milk</li>
+        <li>Water</li>
+      </ul>
+      <li>Boil and Mix Sugar and Ginger</li>
+      <li>After simmering, add Tea Leaves</li>
+    </ol>
+    <hr />
+  </body>
+</html>

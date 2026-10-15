@@ -1,0 +1,64 @@
+* {
+  font-size: 20px;
+  color: blue;
+}
+
+#newId {
+  font-size: 50px;
+  color: blue;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 6px;
+}
+.newClass {
+  font-size: 60px;
+  color: pink;
+}
+#secondId {
+  color: red;
+}
+p {
+  font-size: 50px;
+  color: #bc2f2f;
+}
+
+span {
+  font-family: "Instrument Serif";
+  font-style: italic;
+  font-size: 50px;
+  color: blue;
+}
+
+div {
+  background-color: blue;
+}
+.firstDiv {
+  /* background-color: Green; */
+  color: white;
+  font-size: 50px;
+  border: 2px solid black;
+  height: 100px;
+  text-align: center;
+}
+
+.playwrite-ca-guides-regular {
+  font-family: "Playwrite CA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}

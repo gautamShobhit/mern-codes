@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse Follower Practice</title>
+    <style>
+      /* Basic page setup */
+      body {
+        height: 100vh;
+        margin: 0;
+        background-color: #0f172a;
+        overflow: hidden; /* Prevents scrollbars from appearing */
+        font-family: Arial, sans-serif;
+      }
+
+      /* Styling for the moving box */
+      .cursor-box {
+        /* 
+              CRITICAL: position: absolute is required. 
+              Without this, left and top properties in JS will be ignored.
+            */
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, #3b82f6, #ec4899);
+        border-radius: 50%;
+
+        /* pointer-events: none ensures the mouse passes through the box smoothly */
+        pointer-events: none;
+
+        /* Shifts the box so its exact center aligns with the cursor coordinates */
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        box-shadow: 0 0 20px rgba(236, 72, 153, 0.5);
+      }
+
+      .instructions {
+        color: #94a3b8;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="instructions">
+      <h2>Move your mouse around!</h2>
+      <p>Open your browser console (F12) to see the X and Y coordinate logs.</p>
+    </div>
+
+    <!-- 
+      The class name matches the CSS (.cursor-box) 
+      and the ID matches what JavaScript looks for ('myDiv') 
+    -->
+    <div class="cursor-box" id="myDiv">Follow Me</div>
+
+    <script>
+      // Step 1: Find and store the HTML element in a JavaScript variable using its ID
+      const myDiv = document.getElementById("myDiv");
+
+      // Step 2: Listen for mouse movement across the entire browser window
+      window.addEventListener("mousemove", function (dets) {
+        // Step 3: Log the mouse's horizontal (clientX) and vertical (clientY) position
+        console.log(
+          "X coordinate:",
+          dets.clientX,
+          "Y coordinate:",
+          dets.clientY,
+        );
+
+        // Step 4: Dynamically change the CSS left and top position
+        // of the box to match the cursor's current coordinates
+        myDiv.style.left = dets.clientX + "px";
+        myDiv.style.top = dets.clientY + "px";
+      });
+    </script>
+  </body>
+</html>

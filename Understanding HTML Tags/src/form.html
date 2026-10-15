@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #htmlForm {
+        border: 2px solid black;
+        padding: 4px 8px;
+      }
+    </style>
+    <title>form</title>
+  </head>
+  <body>
+    <h1>HTML FORMS</h1>
+    <!--Form tag has 2 attribute-->
+    <!-- Action => Describes through what path the user data will be send-->
+    <!-- Method => Tells you the method by which the data is being transferred-->
+    <!-- get method => User data gets attached to the URL-->
+    <!-- post method => User data is securely transfered via data packets-->
+    <form id="htmlForm">
+      <label for="fName">First Name :</label>
+      <input
+        id="fName"
+        type="text"
+        placeholder="eg;Mohan"
+        name="userName"
+        required
+      /><br /><br />
+
+      <label for="userEmail">Enter your Email ID: </label>
+      <input
+        id="userEmail"
+        type="email"
+        placeholder="xyz@gmail.com"
+        name="userEmail"
+      /><br /><br />
+
+      <label for="userPass">Enter your Password : </label>
+      <input id="userPass" type="password" name="userPass" /><br /><br />
+
+      <label for="contactNumber">Enter your Number : </label>
+      <input
+        type="tel"
+        id="contactNumber"
+        placeholder="eg;0123456789"
+        name="phoneNumber"
+      /><br /><br />
+
+      <!-- Radio : used when user has to selecct only one option -->
+      <!-- name : creates a variable location in backend to store the option selected by user -->
+      <!-- value : exact value that is assigned name variables -->
+      <span>Select your Gender :</span>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="others">Others</label>
+      <input type="radio" id="others" name="gender" value="others" />
+
+      <!--Checkbox : Used when the user can select more than one option-->
+      <p>Select your skills :</p>
+
+      <input id="html" type="checkbox" name="userSkill" value="html" />
+      <label for="html">HTML</label><br />
+
+      <input id="css" type="checkbox" name="userSkill" value="css" />
+      <label for="css">CSS</label><br />
+
+      <input id="js" type="checkbox" name="userSkill" value="js" />
+      <label for="js">JavaScript</label><br />
+
+      <input id="python" type="checkbox" name="userSkill" value="python" />
+      <label for="python">Python</label>
+      <br /><br />
+
+      <!--Select : Used when their are so many opitons to choose from-->
+      <!--Creates a dropdown list with multiple options-->
+      <!--Can also add 'multiple' keyword to turn dropdown into scrollbar-->
+      <label for="prefLocation"
+        >Select your preffered location to work :
+      </label>
+      <select id="prefLocation" name="userLocation">
+        <option value="" disabled selected>--Select preffered City--</option>
+        <option value="delhi">Delhi</option>
+        <option value="gurgaon">Gurgaon</option>
+        <option value="pune">Pune</option>
+        <option value="noida">Noida</option>
+        <option value="bangalore">Bangalore</option></select
+      ><br /><br />
+
+      <!--Textarea : User can fill in multiline text-->
+      <label for="userBio">Write a short bio about yourself :</label><br />
+      <textarea
+        id="userBio"
+        name="userBio"
+        rows="3"
+        cols="30"
+        maxlength="100"
+        placeholder="Write about yourself here..."
+      ></textarea
+      ><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

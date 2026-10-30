@@ -1,0 +1,17 @@
+Main Objective
+
+Imagine you are starting a business. Design, structure and style its landing website from scratch. This tests your HTML and CSS to the core. No restrictions!
+
+What You Will Implement
+
+Pick any business (cafe, gym, tuition centre, clothing brand, travel agency...) and build a landing page with:
+
+-> Hero section with background image/colour, headline, and a call-to-action button. Use position and z-index (for example, text over a dark overlay).
+-> About / Services section with 3 card variants (different styles using border-radius, backgrounds, shadows).
+-> Gallery or Testimonials section with images.
+-> Contact section (can reuse your form skills).
+-> Footer with links.
+-> Concepts you must use: box model (margin, padding, border), positioning, background styling, borders, images, overflow.
+-> Bonus: annotate a screenshot of one element showing its content, padding, border and margin (save as box-model.png).
+
+Note: Layout will be done with normal flow and positioning for now. Flexbox and Grid are coming in the next assignments!

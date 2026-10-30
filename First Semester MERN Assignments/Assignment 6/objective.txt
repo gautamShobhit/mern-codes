@@ -1,0 +1,14 @@
+Main Objective
+
+Get comfortable with one-dimensional layouts using Flexbox.
+
+What You Will Implement
+
+Make four small pages in one folder:
+
+-> menu.html: a simple horizontal menu bar using display: flex.
+-> login.html: a login form perfectly centred on the screen (horizontally and vertically).
+-> products.html: a product listing of at least 8 items using flex-wrap.
+-> navbar-hero.html: a navbar + hero section made with Flexbox (logo on the left, links on the right, hero text centred).
+
+Use: justify-content, align-items, flex-direction, flex-wrap, gap, flex-grow.

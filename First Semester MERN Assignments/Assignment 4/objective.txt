@@ -1,0 +1,14 @@
+Main Objective
+
+Turn your plain portfolio into a beautiful one using CSS fundamentals.
+
+What You Will Implement
+
+Copy your Assignment 2 work into a new folder (05-styled-portfolio) and add a style.css:
+
+-> Selectors: use at least four types (element, class, id, descendant/child, pseudo-class like :hover)
+-> Fonts: a good font pairing (one for headings, one for body) from Google Fonts
+-> Colour palette: 3-5 colours chosen on purpose
+-> Design tokens: a :root section with CSS variables for colours, font sizes, spacing
+-> Link your CSS using an external stylesheet (<link>)
+-> Add a short "Design Choices" note in your README: why these fonts and colours?

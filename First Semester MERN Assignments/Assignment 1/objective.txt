@@ -1,0 +1,15 @@
+Main Objective
+
+Use everything you have learned so far to build your own portfolio page. This is your real portfolio. It will keep improving all semester.
+
+What You Will Implement
+
+Build it in stages and commit after each stage:
+
+Stage 1: Basic page. Title, a few headings (h1 to h3), paragraphs.
+Stage 2: Resume content. Your name, about me, skills, education, projects, contact. Text only at first.
+Stage 3: Semantic structure. Replace plain divs with header, nav, main, section, article, footer.
+Stage 4: Internal navigation. A nav bar linking to each section using ids (<a href="#projects">).
+Stage 5: Lists. A "My College / My Course" section using ul, ol and (at least once) dl.
+Stage 6: Images. Add your photo and at least one more image. Every image needs a meaningful alt text.
+Stage 7: Meta tags. Add charset, viewport, description and author.

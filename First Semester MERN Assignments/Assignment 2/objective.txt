@@ -1,0 +1,15 @@
+Main Objective
+
+Learn how forms collect information by building one with every input type.
+
+What You Will Implement
+
+Create a job-application style form (or any purpose you choose: event signup, club membership, hostel form, etc.) that uses:
+
+-> Text inputs: text, email, password, tel, url, number
+-> Choice inputs: radio, checkbox, select (with option), datalist
+-> Other inputs: date, time, file, range, color, textarea
+label linked to every input (using for and id)
+-> Grouping with fieldset and legend
+-> Validation attributes: required, placeholder, min, max, minlength, pattern
+-> A submit and a reset button

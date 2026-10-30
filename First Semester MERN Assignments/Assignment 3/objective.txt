@@ -1,0 +1,13 @@
+Main Objective
+
+Learn how to build a complex table and style it neatly using CSS variables.
+
+What You Will Implement
+
+A table of at least 20 rows x 10 columns. Ideas: product size chart, class timetable, cricket scoreboard, price comparison, fitness plan.
+
+-> table, caption, thead, tbody, tfoot
+-> th with scope
+-> At least 2 uses of colspan and 2 uses of rowspan
+-> Styling with CSS variables (colours, spacing, font size) defined in :root
+-> border-collapse, padding, striped rows (tr:nth-child(even)), a hover effect on rows
